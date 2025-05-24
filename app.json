@@ -1,20 +1,23 @@
 {
   "expo": {
-    "name": "adv102-android-app",
-    "slug": "adv102-android-app",
+    "name": "wordol",
+    "slug": "wordol",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "wordol",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
+    "updates": {
+      "enabled": false
+    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#fafafa"
       }
     },
     "web": {
@@ -31,6 +34,44 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+      "expo-font",
+        {
+          "assets": [
+            "./assets/fonts/inter_black.ttf",
+            "./assets/fonts/inter_blackitalic.ttf",
+            "./assets/fonts/inter_bold.ttf",
+            "./assets/fonts/inter_bolditalic.ttf",
+            "./assets/fonts/inter_extrabold.ttf",
+            "./assets/fonts/inter_extrabolditalic.ttf",
+            "./assets/fonts/inter_extralight.ttf",
+            "./assets/fonts/inter_extralightitalic.ttf",
+            "./assets/fonts/inter_italic.ttf",
+            "./assets/fonts/inter_light.ttf",
+            "./assets/fonts/inter_lightitalic.ttf",
+            "./assets/fonts/inter_medium.ttf",
+            "./assets/fonts/inter_mediumitalic.ttf",
+            "./assets/fonts/inter_regular.ttf",
+            "./assets/fonts/inter_semibold.ttf",
+            "./assets/fonts/inter_semibolditalic.ttf",
+            "./assets/fonts/inter_thin.ttf",
+            "./assets/fonts/inter_thinitalic.ttf",
+            "./assets/fonts/martires_black.otf",
+            "./assets/fonts/martires_bold.otf",
+            "./assets/fonts/martires_demi_bold.otf",
+            "./assets/fonts/martires_extra_bold.otf)",
+            "./assets/fonts/martires_extra_light.otf)",
+            "./assets/fonts/martires_heavy.otf",
+            "./assets/fonts/martires_light.otf",
+            "./assets/fonts/martires_medium.otf",
+            "./assets/fonts/martires_regular.otf",
+            "./assets/fonts/martires_semi_bold.otf",
+            "./assets/fonts/martires_thin.otf",
+            "./assets/fonts/martires_ultra_bold.otf",
+            "./assets/fonts/martires_ultra_light.otf"
+          ]
         }
       ]
     ],
